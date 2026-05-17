@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catify — premium cat nutrition crafted for curious cats and caring humans. Salmon Crunch, Chicken Delight, Tuna Pro Mix, and Kitten Energy Formula. Subscribe for monthly delivery.">
+  <meta name="keywords" content="Catify, premium cat food, healthy cat nutrition, cat subscription, salmon cat food, kitten formula">
+  <meta name="theme-color" content="#0a0a0b" id="themeColorMeta">
+  <meta property="og:title" content="Catify — Premium Nutrition for Every Purr">
+  <meta property="og:description" content="Playful. Premium. Vet-informed recipes shipped to your door.">
+  <meta property="og:type" content="website">
+  <title>Catify — Premium Cat Nutrition | Healthy Food Cats Love</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Catify",
+    "url": "https://catify.example",
+    "description": "Premium cat nutrition — playful brand, serious standards.",
+    "sameAs": [
+      "https://instagram.com",
+      "https://tiktok.com",
+      "https://twitter.com"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__paw" aria-hidden="true"></span>
+      <p class="loader__text">Catify</p>
+    </div>
+  </div>
+
+  <a href="#products" class="floating-cta" aria-label="Buy Catify now">
+    <span class="floating-cta__glow"></span>
+    <span class="floating-cta__label">Buy Now</span>
+  </a>
+
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-mark">C</span>
+        <span class="nav__logo-text">Catify</span>
+      </a>
+      <button type="button" class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#products" class="nav__link">Shop</a></li>
+        <li><a href="#why" class="nav__link">Why Catify</a></li>
+        <li><a href="#nutrition" class="nav__link">Nutrition</a></li>
+        <li><a href="#reviews" class="nav__link">Reviews</a></li>
+        <li><a href="#plan" class="nav__link">Subscribe</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" title="Theme">
+        <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"></span>
+        <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" data-parallax></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+      <div class="container hero__grid">
+        <div class="hero__content glass-card">
+          <p class="eyebrow">Vet-informed · Cold-pressed · No fillers</p>
+          <h1 id="hero-title" class="hero__title">Nutrition that matches <span class="text-gradient">their curiosity</span></h1>
+          <p class="hero__lead">Catify turns mealtime into a daily win: real protein, traceable ingredients, and recipes cats actually finish—so you can feel as good as they feel full.</p>
+          <div class="hero__actions">
+            <a href="#products" class="btn btn--primary">Shop the range</a>
+            <a href="#plan" class="btn btn--ghost">Start a plan</a>
+          </div>
+          <dl class="hero__stats">
+            <div>
+              <dt class="sr-only">Happy cats</dt>
+              <dd><span class="counter" data-target="48000" data-suffix="+">0</span></dd>
+              <dt>bowls loved</dt>
+            </div>
+            <div>
+              <dt class="sr-only">Rating</dt>
+              <dd><span class="counter" data-target="49" data-suffix="/50">0</span></dd>
+              <dt>avg. taste score</dt>
+            </div>
+            <div>
+              <dt class="sr-only">Delivery</dt>
+              <dd><span class="counter" data-target="98" data-suffix="%">0</span></dd>
+              <dt>on-time delivery</dt>
+            </div>
+          </dl>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__image-wrap">
+            <img src="assets/img/hero-cat.png" alt="Fluffy black and white kitten with blue eyes sitting on a cream rug" width="960" height="1280" class="hero__img" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='assets/img/hero-cat.svg'">
+            <div class="hero__badge glass-card glass-card--sm glass-card--on-photo">
+              <span class="hero__badge-stars" aria-hidden="true">★★★★★</span>
+              <span>4.9 from 2,400+ parents</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#products" class="hero__scroll" aria-label="Scroll to products">
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <section class="section products" id="products" aria-labelledby="products-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">The lineup</p>
+          <h2 id="products-title" class="section__title">Featured recipes</h2>
+          <p class="section__sub">Small-batch textures, big-batch standards. Every bag is tested for taste and digestibility before it leaves our kitchen partners.</p>
+        </header>
+        <div class="products__grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <p class="eyebrow">Why choose Catify</p>
+          <h2 id="why-title" class="section__title">Built for cats. Designed for you.</h2>
+        </header>
+        <ul class="why__grid">
+          <li class="why__card glass-card">
+            <div class="why__icon" aria-hidden="true">◆</div>
+            <h3>Protein-first formulas</h3>
+            <p>Named meats and fish lead every recipe—never mystery “meal” blends hiding at the top of the label.</p>
+          </li>
+          <li class="why__card glass-card">
+            <div class="why__icon" aria-hidden="true">◇</div>
+            <h3>Digestion you can notice</h3>
+            <p>Prebiotics, balanced fiber, and slow-cooked grains (where used) help keep litter-box surprises predictable.</p>
+          </li>
+          <li class="why__card glass-card">
+            <div class="why__icon" aria-hidden="true">○</div>
+            <h3>Transparent sourcing</h3>
+            <p>Lot-tracked ingredients and partner audits—because “premium” should mean something on paper, not just on the bag.</p>
+          </li>
+          <li class="why__card glass-card">
+            <div class="why__icon" aria-hidden="true">◎</div>
+            <h3>Subscription-ready</h3>
+            <p>Portion reminders, easy skips, and delivery windows that respect apartment buzzers and nap schedules.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section nutrition" id="nutrition" aria-labelledby="nutrition-title">
+      <div class="container nutrition__grid">
+        <div class="nutrition__copy glass-card">
+          <p class="eyebrow">Ingredients & nutrition</p>
+          <h2 id="nutrition-title" class="section__title">What goes in—and why it matters</h2>
+          <p class="section__sub">Our nutrition team works with independent vets to set minimums for protein, taurine, and omega balance across the full range. No artificial colors in any Catify core line.</p>
+          <ul class="nutrition__list">
+            <li><strong>Omega support</strong> — salmon oil and flax for skin that feels as soft as it looks.</li>
+            <li><strong>Joint care mindset</strong> — green-lipped mussel in select adult formulas.</li>
+            <li><strong>Kitten curve</strong> — DHA and controlled calcium paths for steady growth, not growth spurts you regret.</li>
+          </ul>
+        </div>
+        <div class="nutrition__visual">
+          <div class="nutrition__orb" data-parallax-slow></div>
+          <img src="assets/img/nutrition-food.jpg" alt="Dry cat food kibble in a bowl" width="1200" height="900" class="nutrition__img" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/nutrition.svg'">
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <p class="eyebrow">Love letters</p>
+          <h2 id="reviews-title" class="section__title">Cats voted. Parents agreed.</h2>
+        </header>
+        <div class="reviews__slider glass-card">
+          <button type="button" class="reviews__btn reviews__btn--prev" id="reviewPrev" aria-label="Previous testimonial">‹</button>
+          <div class="reviews__track" id="reviewTrack" role="region" aria-live="polite" aria-label="Customer testimonials"></div>
+          <button type="button" class="reviews__btn reviews__btn--next" id="reviewNext" aria-label="Next testimonial">›</button>
+          <div class="reviews__dots" id="reviewDots" role="tablist" aria-label="Testimonial slides"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section plan" id="plan" aria-labelledby="plan-title">
+      <div class="container plan__wrap glass-card">
+        <div class="plan__content">
+          <p class="eyebrow">Catify Club</p>
+          <h2 id="plan-title" class="section__title">Monthly food plan</h2>
+          <p class="section__sub">Pick your cat’s favorite recipes, set your delivery rhythm, and save every month. Change recipes, pause, or cancel—no guilt trips, only purrs.</p>
+          <ul class="plan__bullets">
+            <li>Up to <strong>18% off</strong> recurring orders</li>
+            <li>Free shipping on plans over $45</li>
+            <li>First box: welcome toy + transition guide</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Build my plan</a>
+        </div>
+        <div class="plan__aside">
+          <div class="plan__photo">
+            <img src="assets/img/nutrition-food.jpg" alt="Catify monthly food box with kibble" width="600" height="450" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/nutrition.svg'">
+          </div>
+          <div class="plan__card">
+            <span class="plan__price">From <strong>$34</strong><small>/mo</small></span>
+            <p class="plan__note">Pricing varies by recipes and cat size—we’ll suggest portions after a 60-second quiz (coming soon). For now, tell us your cat’s name in the contact form—we read every message.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__img-wrap">
+          <img src="assets/img/about-cat.jpg" alt="Cute gray kitten resting" width="500" height="667" class="about__img" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/about-cat.svg'">
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow">About Catify</p>
+          <h2 id="about-title" class="section__title">A startup obsession with the small stuff</h2>
+          <p>Catify started in a tiny kitchen with a picky rescue and a spreadsheet. Today we’re a distributed team of pet people, food scientists, and designers united by one rule: if we wouldn’t feed it to our own cats, it doesn’t ship.</p>
+          <p>We’re playful in our brand and serious in our standards—because trust isn’t a vibe, it’s a stack of decisions you repeat every single batch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__head section__head--center">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title" class="section__title">Questions, answered</h2>
+        </header>
+        <div class="faq__list" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__intro glass-card">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title" class="section__title">Say hello</h2>
+          <p>Partnerships, press, or “which recipe for two cats and one diva?”—we’re here. This form is demo-ready for launch day.</p>
+          <address class="contact__address">
+            <strong>Catify HQ</strong><br>
+            1200 Market Street, Floor 4<br>
+            San Francisco, CA
+          </address>
+        </div>
+        <form class="contact__form glass-card" id="contactForm" novalidate>
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required placeholder="Alex & Mochi">
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+          </label>
+          <label class="field">
+            <span>Message</span>
+            <textarea name="message" rows="4" required placeholder="Tell us about your cat and what you're looking for..."></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--full">Send message</button>
+          <p class="form__note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo nav__logo--footer">
+          <span class="nav__logo-mark">C</span>
+          <span class="nav__logo-text">Catify</span>
+        </a>
+        <p class="footer__tagline">Fuel the purr. Elevate the bowl.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#products">Shop</a>
+        <a href="#nutrition">Nutrition</a>
+        <a href="#plan">Subscribe</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+        <a href="https://tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TT</a>
+        <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© <span id="year"></span> Catify. All rights reserved.</p>
+      <p class="footer__legal">Demo site — not a store checkout.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
